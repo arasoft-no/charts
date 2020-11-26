@@ -3,7 +3,7 @@ entries:
   docker-auth:
   - apiVersion: v2
     appVersion: 1.4.0
-    created: "2020-11-25T20:16:35.1915864+01:00"
+    created: "2020-11-26T19:08:06.3888554+01:00"
     description: Docker Registry V2 authentication server
     digest: ac6aa2977063f16bae7877335da36e7271015b3c1519f554e6627315306a9451
     home: https://github.com/cesanta/docker_auth
@@ -24,4 +24,23 @@ entries:
     urls:
     - docker-auth-1.0.3.tgz
     version: 1.0.3
-generated: "2020-11-25T20:16:35.1905862+01:00"
+  docker-registry:
+  - apiVersion: v1
+    appVersion: 2.6.2
+    created: "2020-11-26T19:08:06.3908498+01:00"
+    description: A Helm chart for Docker Registry
+    digest: c63563e7226f6974de0906e0264d1ee5626f25c8f574fb9b61a65a417c05cf62
+    home: https://hub.docker.com/_/registry/
+    icon: https://hub.docker.com/public/images/logos/mini-logo.svg
+    maintainers:
+    - email: jpds@protonmail.com
+      name: jpds
+    - email: pete.brown@powerhrg.com
+      name: rendhalver
+    name: docker-registry
+    sources:
+    - https://github.com/docker/distribution-library-image
+    urls:
+    - docker-registry-1.7.0.tgz
+    version: 1.7.0
+generated: "2020-11-26T19:08:06.3842244+01:00"
